@@ -4,7 +4,7 @@ MTN APP ACADEMY
 
 Week 1: decide what you want to build, problem you want to solve
         choose your team, "MarvelUs"
-        Team Members Me, Simanga Mchunu, Phindile Luthili, Samuel Zimba, Eugenia Andyibadu, Maria Kunene
+        Team Members Me, Simanga Mchunu, Phindile Luthili, Samuel Zimba, Eugenia Anyimadu, Maria Kunene
         App: Batsumi (township-lastmile delivery app)
         Problem being solved: youth unemployment
         Customizing bicycles to be electric and hiring school leavers.
