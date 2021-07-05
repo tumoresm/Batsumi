@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Batsumi</string>
     <string name="app_logo">app_logo</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 </resources>

@@ -9,5 +9,8 @@ class MainActivity : AppCompatActivity() {
 
         setTheme(R.style.Theme_Batsumi)
         setContentView(R.layout.activity_main)
+
+        /*button.setOnClickListener{
+            button.isSelected = !button.isSelected*/
+        }
     }
-}
