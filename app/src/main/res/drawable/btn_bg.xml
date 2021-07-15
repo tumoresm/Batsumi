@@ -8,5 +8,7 @@
         android:bottomRightRadius="20dp"
         android:topLeftRadius="20dp"
         android:topRightRadius="20dp" />
+    <solid
+        android:color="@color/smoke_grey">btn_bg</solid>
 
 </shape>

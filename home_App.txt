@@ -1,0 +1,2 @@
+private RecyclerView recyclerView
+        private StaticRvAdapter : staticRvAdaptor
