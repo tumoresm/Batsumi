@@ -14,4 +14,5 @@
     <color name="transparent">#00000000</color>
     <color name="gradStart">#FFFFFF</color>
     <color name="gradStop">#FF0000</color>
+    <color name="colorAccent">#FFFFFF</color>
 </resources>

@@ -42,11 +42,11 @@ class DashBoard : AppCompatActivity(), UpdateRV,
         setContentView(R.layout.activity_dash_board)
         val item = ArrayList<StaticRvModel>()
         /** *********************************  */
-        item.add(StaticRvModel(R.drawable.food_pizza, "pizza"))
-        item.add(StaticRvModel(R.drawable.food_burger, "burger"))
-        item.add(StaticRvModel(R.drawable.food_fries, "fries"))
-        item.add(StaticRvModel(R.drawable.food_icecream, "ice-cream"))
-        item.add(StaticRvModel(R.drawable.food_sandwich, "sandwich"))
+        item.add(StaticRvModel(R.drawable.fries, "fries"))
+        item.add(StaticRvModel(R.drawable.sphahlo, "sphahlo"))
+        item.add(StaticRvModel(R.drawable.shisanyama2, "shisanyama"))
+        item.add(StaticRvModel(R.drawable.mogudu, "mogudu"))
+        item.add(StaticRvModel(R.drawable.vetkoek, "amagwinya"))
         recyclerView = findViewById(R.id.rv_1)
         adapter = StaticRvAdapter(item, this, this@DashBoard)
         /**  Navigation  */

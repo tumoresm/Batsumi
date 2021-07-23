@@ -13,7 +13,7 @@
 
     <ImageView
         android:layout_marginTop="15dp"
-        android:src="@drawable/food_pizza"
+        android:src="@drawable/fries"
         android:id="@+id/f_icon"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -23,7 +23,7 @@
         android:id="@+id/f_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pizza"
+        android:text="Fries"
         android:layout_marginTop="10dp"
         android:textSize="14sp"
         android:layout_gravity="center"/>
