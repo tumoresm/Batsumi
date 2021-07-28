@@ -9,21 +9,28 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/batsumisplashTheme">
-        <activity android:name=".DashBoard"></activity>
-        <activity android:name=".MainActivity"></activity>
-        <!--
-           <activity android:name=".Splash">
-
-        </activity>
-        -->
-        <activity android:name=".Login">
+        android:theme="@style/Theme.Batsumi">
+        <activity android:name=".Restaurant.resDetail"></activity>
+        <activity android:name=".Introductory">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--
+        <activity android:name=".Splash">
+        </activity>
+        -->
+        <activity android:name=".DashBoard" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Navigation.AboutUS" />
+        <activity android:name=".Navigation.Profile" />
+        <activity android:name=".OrderAndCart.ConfirmOrder" />
+        <activity android:name=".Login_AND_SignUp.ForgotPassword" />
+        <activity android:name=".MainCourse.DashBoard" />
+        <activity android:name=".Login_AND_SignUp.Login" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

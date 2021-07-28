@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "561472743595",
+    "project_id": "batsumi-d5259",
+    "storage_bucket": "batsumi-d5259.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561472743595:android:4c69c9af70a28a91f92fee",
+        "android_client_info": {
+          "package_name": "com.example.batsumi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561472743595-q9o4t3naieim6udbenshnqijltcj8rtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4YTY5KFSUCspTB4ABjvxD5BRDCQkTxWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561472743595-q9o4t3naieim6udbenshnqijltcj8rtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

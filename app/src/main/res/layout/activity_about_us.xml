@@ -9,8 +9,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/bg"
-        android:scaleType="centerCrop"/>
+        android:background="@drawable/grad_bg"
+        android:foreground="@drawable/grad_bg"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg" />
 
 
     <androidx.constraintlayout.widget.ConstraintLayout

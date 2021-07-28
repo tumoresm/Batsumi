@@ -1,4 +1,4 @@
-package com.example.batsumi
+package com.example.batsumi.MainCourse
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +8,7 @@ import android.widget.RatingBar.OnRatingBarChangeListener
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
+import com.example.batsumi.R
 import java.util.*
 
 
@@ -25,7 +26,7 @@ class DynamicRvAdapter(var models: ArrayList<DynamicRvModel>) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DynamicRvHolder {
         val view: View =
-            LayoutInflater.from(parent.context).inflate(R.layout.dynamicrvitems, parent, false)
+            LayoutInflater.from(parent.context).inflate(R.layout.dynamic_rv_items, parent, false)
         return DynamicRvHolder(view, listener)
     }
 

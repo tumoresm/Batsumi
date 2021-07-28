@@ -1,4 +1,4 @@
-package com.example.batsumi
+package com.example.batsumi.MainCourse
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -17,6 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.google.android.material.navigation.NavigationView;
 import com.example.batsumi.DRVinterface.UpdateRV;
+import com.example.batsumi.R
 
 class DashBoard : AppCompatActivity(), UpdateRV,
     NavigationView.OnNavigationItemSelectedListener {

@@ -1,4 +1,4 @@
-package com.example.batsumi
+package com.example.batsumi.MainCourse
 
 
 import android.app.Activity
@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.batsumi.R
 import java.util.*
 
 

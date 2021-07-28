@@ -1,4 +1,4 @@
-package com.example.batsumi
+package com.example.batsumi.Restaurant
 
 import android.app.Activity
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.example.batsumi.DRVinterface.UpdateResRV
+import com.example.batsumi.R
 import java.util.*
 
 

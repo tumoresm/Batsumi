@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@color/white"/>
+    <item android:drawable="@drawable/ic_main_bg"
+        android:height="@dimen/browser_actions_context_menu_max_width"
+        android:width="@dimen/browser_actions_context_menu_max_width"/>
     <item android:drawable="@drawable/ic_batsumi_logo" android:gravity="center"/>
 
 </layer-list>

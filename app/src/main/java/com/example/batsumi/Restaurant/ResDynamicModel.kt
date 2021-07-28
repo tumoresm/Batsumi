@@ -1,4 +1,4 @@
-package com.example.batsumi
+package com.example.batsumi.Restaurant
 
 class ResDynamicModel {
     var name: String
