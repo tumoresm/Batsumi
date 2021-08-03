@@ -1,20 +1,16 @@
 package com.example.batsumi
 
-import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentPagerAdapter
-import androidx.fragment.app.FragmentStatePagerAdapter
-import androidx.viewpager.widget.ViewPager
-import android.content.Intent
+/*import com.airbnb.lottie.LottieAnimationView*/
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.os.Handler
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
-/*import com.airbnb.lottie.LottieAnimationView*/
-import com.example.batsumi.Login_AND_SignUp.Login
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentStatePagerAdapter
+import androidx.viewpager.widget.ViewPager
 import com.example.batsumi.OnbroadingFragments.onBroading_1_Fragment
 import com.example.batsumi.OnbroadingFragments.onBroading_2_Fragment
 import com.example.batsumi.OnbroadingFragments.onBroading_3_Fragment
@@ -39,11 +35,11 @@ class Introductory : AppCompatActivity() {
         /*lottieAnimationView = findViewById(R.id.splash_animation)*/
         viewPager = findViewById(R.id.liquidPager)
         slidePageAdapter = ScreenSlidePageAdapter(getSupportFragmentManager())
-        viewPager.setAdapter(slidePageAdapter)
+       /* viewPager.setAdapter(slidePageAdapter)
         viewPager.setAnimation(animation)
         splashImg.animate().translationY(-3600).setDuration(1000).setStartDelay(4000)
         logo.animate().translationY(2400).setDuration(1000).setStartDelay(4000)
-        appName.animate().translationY(2400).setDuration(1000).setStartDelay(4000)
+        appName.animate().translationY(2400).setDuration(1000).setStartDelay(4000)*/
         /*lottieAnimationView.animate().translationY(1400).setDuration(1000).setStartDelay(4000)*/
         /**
          * //        new Handler().postDelayed(new Runnable() {
@@ -66,9 +62,11 @@ class Introductory : AppCompatActivity() {
     }
 
     private inner class ScreenSlidePageAdapter(fm: FragmentManager?) :
-        FragmentStatePagerAdapter(fm) {
-
-        override fun getItem(position: Int): Fragment? {
+        FragmentStatePagerAdapter(fm!!) {
+        /**
+         * Return the number of views available.
+         */
+        fun getCount(position: Int): Fragment? {
             return when (position) {
                 0 -> {
                     onBroading_1_Fragment()
@@ -82,13 +80,20 @@ class Introductory : AppCompatActivity() {
                 else -> null
             }
         }
+
+        /**
+         * Return the number of views available.
+         */
+        override fun getCount(): Int {
+            TODO("Not yet implemented")
+        }
+
+        /**
+         * Return the Fragment associated with a specified position.
+         */
+        override fun getItem(position: Int): Fragment {
+            TODO("Not yet implemented")
+        }
     }
 
-    companion object {
-        private const val SPLASH_TIME_COUNT = 5500 // becoz delay is 4000
-
-        @get:Override
-        val count = 3
-            get() = Companion.field
-    }
 }

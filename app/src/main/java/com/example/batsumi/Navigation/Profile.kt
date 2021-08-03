@@ -35,7 +35,7 @@ class Profile : AppCompatActivity() {
         firebaseDatabase = FirebaseDatabase.getInstance()
         val databaseReference: DatabaseReference =
             firebaseDatabase!!.getReference("user2/" + firebaseAuth!!.getUid())
-        databaseReference.addValueEventListener(object : ValueEventListener() {
+        databaseReference.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(@NonNull snapshot: DataSnapshot) {
                 val info: UserInfo? = snapshot.getValue(UserInfo::class.java)
                 if (info != null) {
