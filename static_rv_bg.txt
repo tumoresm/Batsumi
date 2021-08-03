@@ -1,6 +1,0 @@
-static_rv_bg
-
-<shape
-
-<solid android: color="#ffffff"/>
-<corners android:radius="50dp"
